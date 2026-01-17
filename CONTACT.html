@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio | CONTACT</title>
+    <link rel="icon" type="image/png" href="IMAGES\icon.png">
+    <link rel="stylesheet" href="CSS/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <a href="HOME.html">HOME</a>
+        <a href="SKILLS.html">EXPERTISE</a>
+        <a href="LESSON.html">SESSIONS</a>
+        <a href="CONTACT.html" class="active">CONTACT</a>
+    </nav>
+
+    <i class="fa-solid fa-folder top-left-icon"></i>
+    
+    <main class="information">
+        <section>
+            <h2>Contact Information</h2>
+            <p>Email: cristiannelcollarin@email.com</p>
+            <hr style="border: 0.5px solid #334155; margin: 2rem 0;">
+            <form id="contactForm">
+                <input type="text" id="name" class="form-input" placeholder="Your Name">
+                <input type="email" id="email" class="form-input" placeholder="Your Email">
+                <textarea id="message" class="form-input" rows="5" placeholder="Your Message"></textarea>
+                <button type="button" onclick="handleContact()">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
